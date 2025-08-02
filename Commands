@@ -1,0 +1,89 @@
+System Information
+ uname -a: Show system info
+ hostname: Show/set system hostname
+ uptime: Show system uptime
+ top / htop: Show running processes
+ df -h: Show disk usage
+ free -h: Show memory usage
+ lsblk: List block devices
+ lscpu: CPU architecture info
+ lsusb: List USB devices
+ lspci: List PCI devices
+ whoami: Current user
+----------------------------------------------------
+ File and Directory Management
+ ls: List files
+ cd: Change directory
+ pwd: Print working directory
+ mkdir: Make directory
+ rmdir: Remove empty directory
+ rm: Remove file/directory
+ cp: Copy file/directory
+ mv: Move/rename file
+ touch: Create empty file
+ find: Search for files
+----------------------------------------------------
+ File Viewing and Editing
+ cat: View file content
+ less / more: Page through file content
+ head / tail: View beginning/end of file
+ nano: Simple text editor
+ vim: Advanced text editor
+ grep: Search text in files
+----------------------------------------------------
+ Searching and Filtering
+ grep: Search text
+find: Find files/directories
+ locate: Fast file search
+ which: Path of command
+ whereis: Locate binary/source/man
+----------------------------------------------------
+ File Permissions
+ chmod: Change file permissions
+ chown: Change file owner
+ ls -l: List files with permissions
+----------------------------------------------------
+ Package Management
+ sudo apt update: Update package list (Debian/Ubuntu)
+ sudo apt install <pkg>: Install package (Debian/Ubuntu)
+ sudo dnf install <pkg>: Install package (Fedora/RHEL)
+ sudo pacman -Syu: Update system (Arch)
+----------------------------------------------------
+ User Management
+ who / w: Who is logged in
+ id: Current user ID
+ adduser / useradd: Add a new user
+ passwd: Change user password
+ usermod: Modify user
+ deluser / userdel: Delete user
+----------------------------------------------------
+ Networking
+ ip a / ifconfig: Show IP addresses
+ ping: Check network connection
+ traceroute: Trace network path
+ netstat -tuln: List open ports
+ curl / wget: Download from web
+ ssh: Remote login
+ scp: Secure copy
+----------------------------------------------------
+ Process Management
+ ps aux: List processes
+ top: Live process viewer
+kill <pid>: Kill process by PID
+ killall <name>: Kill process by name
+ nice / renice: Set process priority
+ Disk and Storage
+ df -h: Disk usage
+ du -sh: Directory size
+ mount / umount: Mount/unmount filesystem
+ fdisk / parted: Partition disks
+ mkfs / fsck: Filesystem tools
+----------------------------------------------------
+ Miscellaneous
+ alias: Create command shortcuts
+ history: Show command history
+ echo: Display message
+ date: Show/set date
+ cal: Calendar
+ man: Command manual
+ clear: Clear terminal
